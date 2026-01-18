@@ -1,0 +1,54 @@
+@theme {
+        --color-clifford: #da373d;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* navber */
+.navber{
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.navber-logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navber-list{
+    display: flex;
+    gap: 30px;
+}
+.navber-btn{
+    width: 144px;
+    height: 35px;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: auto 16px ;
+}
+.humberger{
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+@media  screen and (max-width:576px) {
+body{
+    padding: 0 25px;
+}
+
+.humberger{
+    display: flex;
+}
+#btn {
+    display: none;
+    
+}
+.list{
+    display: none;
+}
+}
