@@ -26,7 +26,6 @@
 .navber-btn{
     width: 144px;
     height: 35px;
-    border: 2px solid red;
     border-radius: 20px;
     padding: auto 16px ;
 }
@@ -35,12 +34,98 @@
     width: 24px;
     height: 24px;
 }
+/* header */ 
+.header-container{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.header-container{
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+}
+.bg{
+    background-image: url(./assets/hero-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22%;
+    height: 10%;
+}
+.header-img img{
+    margin: 0 auto;
+    padding: 7%;
+    overflow: hidden;
+    position: relative;
+}
+
+.new{
+    color: black;
+    background-color: #00FF88;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 35px;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+
+
+
+.header{
+    color: azure;
+}
+.header-pragraph{
+    text-align: center;
+}
+.header-pragraph h2{
+    font-size: 68px;
+    font-weight: bolder;
+}
+.header-pragraph p{
+    font-size: 1rem;
+    margin-bottom: 20px ;
+    color: rgb(181, 186, 193);
+}
+.btn-cntent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-1{
+
+    width: 17%;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 35px;
+}
+.btn-2{
+    border: 2px solid #00FF88;
+    width: 13%;
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 35px;
+}
+
+
+
+
+
+
+
 
 @media  screen and (max-width:576px) {
 body{
     padding: 0 25px;
 }
-
+/* navber */
 .humberger{
     display: flex;
 }
