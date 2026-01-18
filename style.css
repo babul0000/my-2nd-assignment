@@ -123,11 +123,14 @@
 
 @media  screen and (max-width:576px) {
 body{
-    padding: 0 25px;
+    width: 100%;
+    padding: 0 20px;
 }
 /* navber */
+
 .humberger{
     display: flex;
+    
 }
 #btn {
     display: none;
@@ -136,4 +139,66 @@ body{
 .list{
     display: none;
 }
+
+/* header-section */
+
+.header-container{
+    margin: 0px auto;
+    padding: 0 10px;
+}
+
+
+.header-container{
+    background-image: url(./assets/hero-bg.png);
+   background-size: 70%;
+   background-position-y: 18%;
+   background-position-x: 40%;
+width: 100%;
+}
+.bg{
+    background-image: url(./assets/hero-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22%;
+    height: 10%;
+}
+.header-img img{
+    margin: 0 auto;
+    padding: 7%;
+    overflow: hidden;
+    position: relative;
+}
+
+    .header{
+    width: 100%;
+    text-align: center;
+    }
+    .btn-cntent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        text-align: center;
+    }
+    .btn-1,.btn-2 {
+    width: 37%;
+    font-size: 15px;
+    font-weight: 500;
+    }
+    
+    .header-pragraph h2{
+    font-size: 2,4rem;
+    text-align: center;
+    }
+.header-pragraph p{
+    width: 90%;
+    margin: 15px auto;
+}
+    .new{
+    top: 18%;
+    left: 55%;
+}
+
+
 }
