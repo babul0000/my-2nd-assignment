@@ -242,6 +242,53 @@
 
 
 
+.host{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.host h2{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.host-box{
+    background-color: #351165;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 15px;
+    padding: 40px;
+}
+.host-img img{
+    width: 350px;
+    height: 180px;
+
+}
+.host-pragraph h3{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.host-pragraph p{
+    font-size: 1rem;
+    list-style: 24px;
+    color: rgb(185, 180, 175);
+    margin-bottom: 15px;
+}
+
+.in{
+    border:1px solid #533C72;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
 
 
 
@@ -398,4 +445,17 @@ body{
 .iframe-card{
     margin-top: 20px;
 }
+
+
+.host-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;     
+    padding: 20px;
+}
+
+#logo-img{
+    display: flex;
+    justify-content: center;
 }
