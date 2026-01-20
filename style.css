@@ -326,7 +326,20 @@
     background-position: center;
     margin-top: 100px;
 }
-
+#btn{
+    animation: btn 3s ease-in-out infinite;
+}
+@keyframes btn {
+    0%{
+       transform: translateX(0px);
+    }
+    50%{
+       transform: translateX(20px);
+    }
+    100%{
+       transform: translateX(0px);
+    }
+}
 
 .microphone-icon { 
     animation: float 3s ease-in-out infinite; 
@@ -343,7 +356,7 @@
     }
 }
 
-/* আপনার বাটনগুলোর জন্য ব্যবহৃত ক্লাস/আইডি */
+
 .button:hover {
     cursor: pointer;
     box-shadow: 0 0 5px #7B42F6;
