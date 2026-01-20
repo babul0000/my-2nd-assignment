@@ -328,6 +328,44 @@
 }
 
 
+.microphone-icon { 
+    animation: float 3s ease-in-out infinite; 
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px); 
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px); 
+    }
+}
+
+/* আপনার বাটনগুলোর জন্য ব্যবহৃত ক্লাস/আইডি */
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #7B42F6;
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neonGlow {
+    from {
+        box-shadow: 0 0 5px #7B42F6, ;
+    }
+    to {
+        box-shadow: 0 0 10px #7B42F6, 0 0 40px #7B42F6, 0 0 50px #7B42F6;
+    }
+}
+
+
+
+
+
+
+
+
 @media  screen and (max-width:576px) {
 body{
     width: 100%;
@@ -522,3 +560,5 @@ body{
     
 }
 }
+
+
